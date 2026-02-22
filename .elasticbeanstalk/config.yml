@@ -4,6 +4,8 @@ branch-defaults:
     group_suffix: null
   deploy/aws-eb:
     environment: null
+  main:
+    environment: crag-rag-prod
 environment-defaults:
   crag-rag-prod:
     branch: null
@@ -12,7 +14,7 @@ global:
   application_name: crag-rag-app
   branch: null
   default_ec2_keyname: null
-  default_platform: Docker running on 64bit Amazon Linux 2023
+  default_platform: Docker
   default_region: us-east-1
   include_git_submodules: true
   instance_profile: null
